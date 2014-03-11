@@ -1,8 +1,7 @@
-
 def array123(nums):
     "Given an array of ints,return True if .. 1, 2, 3, .. appears in the array somewhere.  "
 
-    if nums is None:
+    if nums is None or len(nums) == 0:
         return False
     hlst = {1: 1, 2: 2, 3: 3}
 
